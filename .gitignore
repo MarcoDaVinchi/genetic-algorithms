@@ -1,0 +1,84 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# History of build results (remove the comment below to include it)
+# .build/
+
+# JetBrains IDEs (e.g., GoLand) specific
+.idea/
+.idea
+*.iml
+
+# GoLand will store custom definitions in the .idea directory, which
+# it creates for each project.
+
+# Logs
+*.log
+*.slog
+
+# OS generated files
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test binary, built with `go test -c`
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+
+# Go build output
+bin/
+pkg/
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+[568vq]*.inl
+[568vq]*_cgo_gotypes.go
+[568vq]*.cgo1.go
+[568vq]*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+# Go tooling flags file
+.go-flags
+
+# Profiling data
+profile.out
+
+# Produced by 'go build -o mybinary'
+/mybinary
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
